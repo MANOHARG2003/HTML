@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin : auto
+        }
+        .display {
+            background-color: black;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            margin: 10px;
+        }
+        /* repeat syntax
+        repeat
+        repeat(3, 1fr) means create 3 columns of equal width
+        repeat(5, 1fr) means create 5 rows of equal height
+        */
+        .numpad {
+            display: grid;
+            grid-template-columns: repeat(3, 3fr);
+            grid-template-rows: repeat(5, 1fr);
+            gap: 10px;
+            width: 200px;
+            height: 300px;
+            margin: auto;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <div class="display">
+        0000
+    </div>
+    <div class="numpad">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>0</div>
+        <div>*</div>
+        <div>#</div>
+        <div>+</div>
+        <div>-</div>
+        <div>/</div>
+        <div>=</div>
+        <div>AC</div>
+    </div>
+    </div>
+</body>
+</html>

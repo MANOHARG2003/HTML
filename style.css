@@ -1,0 +1,78 @@
+.A{
+    background-color: aquamarine;
+}
+.B
+{
+    background-color: rgb(50%, 0%, 12%);
+}
+.C{
+    background-color: #1ae1bc;
+}
+button{
+    background-color: lightsteelblue;
+    color: white;
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    border-style: none;
+    border-radius: 55px;
+    outline-style: dotted;
+    outline-color: black;
+    border: green 10px solid;
+   margin: 20px 20px 20px 200px;
+
+}
+button:hover{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+div.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: blue;
+    flex-wrap: wrap;
+}
+div.flex1{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+    color: white;
+    background-color: green;
+}
+div.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    grid-template-rows: auto auto;
+}
+div.grid1{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 50px;
+    width: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+}
+/* {
+  margin:[margin-top, margin-right, margin-bottom, margin-left];
+}*/
